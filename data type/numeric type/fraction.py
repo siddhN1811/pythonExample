@@ -1,0 +1,17 @@
+# fraction
+from fractions import Fraction
+a1=Fraction(8,6)
+a2=Fraction(10,15)
+print('a1:',a1,'a2:',a2)
+print('add',a1+a2)
+print('sub',a1-a2)
+print('mul',a1*a2)
+print('div',a1/a2)
+print('mod',a1%a2)
+print('less than',a1<a2)
+print('less than or equal',a1<=a2)
+print('greater than',a1>a2)
+print('greater than or equal',a1>=a2)
+print('equal to',a1==a2)
+print('not equal to',a1!=a2)
+print('and',a1!=a2 and a1>=a2)

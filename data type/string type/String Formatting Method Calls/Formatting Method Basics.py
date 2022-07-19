@@ -1,0 +1,13 @@
+#Formatting Method Basics
+s1='{0} {1} {2}'.format(1,1.2,{'raju','mane'})
+print('s1 by position: ',s1)
+s2='{fname} {mname} {lname}'.format(fname='raju',mname='ramchandra',lname='mane')
+print('s2 by keyword: ',s2)
+s3='{mname} {0} {lname}'.format('raju',mname='ramchandra',lname='mane')
+print('s3 by both: ',s3)
+s4='{} {} {}'.format('raju','ramchandra','mane')
+print('s4 by  relative position: ',s4)
+s5='%(fname)s %(mname)s %(lname)s' % dict(fname='raju',mname='ramchandra',lname='mane')
+print('s5',s5)
+s6='{} {} and {}'.format('raju ramchandr mane',12345.45,['python','java'])
+print('s6',s6.split('and'))
