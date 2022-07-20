@@ -28,11 +28,19 @@ for i in range(0,9):
 '''
 3] Write a program to accept a string from the user and display characters that are
 present at an even index number.'''
-
+'''
 str = input('Enter a String')
 for i in str:
     if i%2==0:
-        print(i)
+        print(i)'''
+import matplotlib.pyplot as plt
+import numpy as np
+
+xpoints = np.array([1, 8])
+ypoints = np.array([3, 10])
+
+plt.plot(xpoints, ypoints)
+plt.show()
 
 
 
