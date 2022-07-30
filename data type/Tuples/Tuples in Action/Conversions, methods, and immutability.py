@@ -14,3 +14,6 @@ print(' T.index(2)', t4.index(2))
 print(' T.index(2, 2)', t4.index(2,2))
 print(' T.index(2,2)', t4.index(2,4))
 print('count',t4.count(2))
+t5= ('raju', ['python','java','c#'], 'dev')
+t5[0]='mane'
+print('t5',t5[1])

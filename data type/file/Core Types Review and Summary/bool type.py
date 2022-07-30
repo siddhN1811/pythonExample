@@ -1,0 +1,10 @@
+None
+bool(1)
+bool(None)
+l1=[]
+bool(l1)
+l1=[None]
+bool(l1)
+bool(l1[0])
+l2=[0,None]
+bool(l2[0])
