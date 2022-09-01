@@ -1,0 +1,12 @@
+{'name': 'raju mane'}
+hello world
+1 2 3
+{'name': 'raju mane'}
+hello world
+1 2 3
+{'name': 'raju mane'}
+[1, 2, 3, 4]
+hello world
+1 2 3
+{'name': 'raju mane'}
+[1, 2, 3, 4]
